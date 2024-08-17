@@ -1,5 +1,5 @@
-<nav class="container navbar navbar-expand-lg bg-body-tertiary">
-    <div class="container-fluid">
+<nav class="navbar navbar-expand-lg c-nav-bar">
+    <div class="container">
         <a class="navbar-brand" href="#">
             <img class="c-brand-logo" src="{{ asset('images/cbi-inc.png') }}"
                 alt="Commando Brotherhood International Inc. Logo">
@@ -19,7 +19,7 @@
             <div class="offcanvas-body">
                 <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                     <li class="nav-item d-flex justify-content-center">
-                        <a class="nav-link active c-nav-menu-item" aria-current="page" href="#">About</a>
+                        <a class="nav-link c-nav-menu-item" aria-current="page" href="#">About</a>
                     </li>
                     <li class="nav-item d-flex justify-content-center">
                         <a class="nav-link c-nav-menu-item" href="#">Image</a>

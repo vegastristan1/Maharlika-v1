@@ -6,11 +6,23 @@
 .c-nav-menu-item {
     font-size: 20px;
     padding: 8px 15px 5px 15px;
-    border-radius: 18px;
+    border-radius: 10px;
     margin: 0 0 0 20px;
+    color: white;
 }
 
 .btn-c-nav-menu {
     background-color: red;
     color: white;
+}
+
+.c-nav-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 100; /* Higher value to keep it on top of other elements */
+    background-color: #1b1111; /* Adjust the background color as needed */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: adds a slight shadow for better visibility */
 }

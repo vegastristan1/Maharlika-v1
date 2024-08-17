@@ -10,7 +10,7 @@ Route::get('/original', function () {
 Route::get('/original/home', [HomeController::class, 'index'])->name('home');
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('index');
 });
 
 Auth::routes();

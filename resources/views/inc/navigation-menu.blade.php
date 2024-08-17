@@ -1,7 +1,8 @@
 <nav class="container navbar navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid">
         <a class="navbar-brand" href="#">
-            <img src="{{ asset('images/placeholder-logo.png') }}" alt="Commando Brotherhood International Inc. Logo">
+            <img class="c-brand-logo" src="{{ asset('images/cbi-inc.png') }}"
+                alt="Commando Brotherhood International Inc. Logo">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
             aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
@@ -10,7 +11,7 @@
         <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
             <div class="offcanvas-header">
                 <a class="navbar-brand" href="#">
-                    <img src="{{ asset('images/placeholder-logo.png') }}"
+                    <img class="c-brand-logo" src="{{ asset('images/cbi-inc.png') }}"
                         alt="Commando Brotherhood International Inc. Logo">
                 </a>
                 <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>

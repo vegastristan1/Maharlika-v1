@@ -1,6 +1,6 @@
-.btn-c-nav-menu {
-    background-color: red;
-    color: white;
+.c-brand-logo {
+    width: 100px;
+    height: 100px;
 }
 
 .c-nav-menu-item {
@@ -8,4 +8,9 @@
     padding: 8px 15px 5px 15px;
     border-radius: 18px;
     margin: 0 0 0 20px;
+}
+
+.btn-c-nav-menu {
+    background-color: red;
+    color: white;
 }

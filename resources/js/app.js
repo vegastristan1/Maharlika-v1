@@ -1,5 +1,7 @@
-import './bootstrap';
+import "./bootstrap";
 
-import '../sass/app.scss';
+import "../sass/app.scss";
 
-import '../css/navigation-menu.css';
+import "../css/app.css";
+import "../css/navigation-menu.css";
+import "../css/banner.css";

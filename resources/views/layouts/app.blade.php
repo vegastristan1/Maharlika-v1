@@ -21,11 +21,47 @@
 <body>
     <div id="app">
         @include('inc.navigation-menu')
+        <section id="hero" class="hero-banner">
+            @include('inc.banner')
+        </section>
 
-        <main class="py-4">
-            @yield('content')
+        <main class="">
+            <!-- Section for About -->
+            <section id="about" class="about-section bg-about">
+                <div class="container">
+                    <h2>About Us</h2>
+                    <p>Content about your organization goes here.</p>
+                </div>
+            </section>
+
+            <!-- Section for Services -->
+            <section id="services" class="services-section bg-image">
+                <div class="container">
+                    <h2>Our Services</h2>
+                    <p>Details about the services offered.</p>
+                </div>
+            </section>
+
+            <!-- Section for Contact -->
+            <section id="contact" class="contact-section bg-mission">
+                <div class="container">
+                    <h2>Contact Us</h2>
+                    <p>Information on how to contact you.</p>
+                    <form>
+                        <!-- Your contact form elements -->
+                    </form>
+                </div>
+            </section>
+
+            <!-- Section for Footer -->
+            <footer id="footer" class="footer-section">
+                <div class="container">
+                    <p>&copy; 2024 Your Company. All rights reserved.</p>
+                </div>
+            </footer>
         </main>
     </div>
 </body>
+
 
 </html>

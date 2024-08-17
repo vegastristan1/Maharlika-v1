@@ -1,0 +1,79 @@
+header {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* Full viewport height */
+    overflow: hidden;
+}
+
+.banner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white; /* Adjust based on your design */
+}
+
+.banner > div {
+    background-color: rgba(36, 34, 34, 0.7);
+}
+
+.banner-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; /*change this to auto if need for image*/
+    object-fit: cover;
+    z-index: 5; /* Image should be below content */
+    /* opacity: 0.6; */
+}
+
+.banner-content {
+    position: relative;
+    z-index: 10;
+    text-align: start;
+    width: 100%;
+    height: inherit;
+}
+
+.banner-content-text {
+    width: 60%;
+}
+
+.banner-content h1,
+.banner-content p,
+.banner-content a {
+    margin: 0.5em 0;
+}
+
+.banner-content h1 {
+    font-size: xxx-large;
+    font-weight: bolder;
+}
+
+.banner-content p {
+    font-size: medium;
+}
+
+/* For larger screens */
+@media (min-width: 1200px) {
+    .banner {
+        height: 100vh; /* Full viewport height */
+    }
+}
+
+/* For medium screens */
+@media (min-width: 768px) and (max-width: 1199px) {
+    .banner {
+        height: 70vh;
+    }
+}
+
+/* For small screens */
+@media (max-width: 767px) {
+    .banner {
+        height: 50vh;
+    }
+}

@@ -4,6 +4,16 @@
 }
 
 .bg-mission-vision {
-    background-color: blueviolet;
-    height: 100vh;
+    /* background-color: blueviolet; */
+    /* height: 100vh; */
+}
+
+.section-content-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.addition-break {
+    height: 15vh;
 }

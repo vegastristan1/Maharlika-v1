@@ -19,10 +19,10 @@
             <div class="offcanvas-body">
                 <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                     <li class="nav-item d-flex justify-content-center">
-                        <a class="nav-link c-nav-menu-item" href="#">Mission & Vision</a>
+                        <a class="nav-link c-nav-menu-item" href="#mission-vision">Mission & Vision</a>
                     </li>
                     <li class="nav-item d-flex justify-content-center">
-                        <a class="nav-link c-nav-menu-item" aria-current="page" href="#">About Us</a>
+                        <a class="nav-link c-nav-menu-item" aria-current="page" href="#about">About Us</a>
                     </li>
                     <div class="btn btn-c-nav-menu c-nav-menu-item">Login</div>
                 </ul>

@@ -29,16 +29,33 @@
             <!-- Section for Services -->
             <section id="mission-vision" class="mission-vision-section bg-mission-vision">
                 <div class="container">
-                    <h2>Our Mission & Vision</h2>
-                    <p>Details about the services offered.</p>
+                    <div class="section-content-title">
+                        <div class="addition-break">
+                        </div>
+                        <h2 class="">Our Mission & Vision</h2>
+                        <p class="pb-3 text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque ipsa
+                            inventore
+                            alias vel? Officia, necessitatibus asperiores repellat voluptatibus error vel quaerat nobis
+                            nisi ipsum! Rerum minima id cupiditate tempore facilis.</p>
+                    </div>
+
+                    @include('inc.mission')
+                    @include('inc.vision')
+                </div>
+
+                <div class="addition-break">
                 </div>
             </section>
 
             <!-- Section for About -->
             <section id="about" class="about-section bg-about-us">
                 <div class="container">
-                    <h2>About Us</h2>
-                    <p>Content about your organization goes here.</p>
+                    <div class="section-content-title">
+                        <div class="addition-break">
+                        </div>
+                        <h2>About Us</h2>
+                        <p class="pb-3 text-center">Content about your organization goes here.</p>
+                    </div>
                 </div>
             </section>
 

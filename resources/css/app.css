@@ -1,19 +1,9 @@
-.bg-about {
+.bg-about-us {
     background-color: aqua;
     height: 100vh;
 }
 
-.bg-image {
-    background-color: blue;
-    height: 100vh;
-}
-
-.bg-mission {
+.bg-mission-vision {
     background-color: blueviolet;
-    height: 100vh;
-}
-
-.bg-vision {
-    background-color: red;
     height: 100vh;
 }

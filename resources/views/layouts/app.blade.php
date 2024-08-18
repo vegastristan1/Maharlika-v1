@@ -26,30 +26,19 @@
         </section>
 
         <main class="">
-            <!-- Section for About -->
-            <section id="about" class="about-section bg-about">
-                <div class="container">
-                    <h2>About Us</h2>
-                    <p>Content about your organization goes here.</p>
-                </div>
-            </section>
-
             <!-- Section for Services -->
-            <section id="services" class="services-section bg-image">
+            <section id="mission-vision" class="mission-vision-section bg-mission-vision">
                 <div class="container">
-                    <h2>Our Services</h2>
+                    <h2>Our Mission & Vision</h2>
                     <p>Details about the services offered.</p>
                 </div>
             </section>
 
-            <!-- Section for Contact -->
-            <section id="contact" class="contact-section bg-mission">
+            <!-- Section for About -->
+            <section id="about" class="about-section bg-about-us">
                 <div class="container">
-                    <h2>Contact Us</h2>
-                    <p>Information on how to contact you.</p>
-                    <form>
-                        <!-- Your contact form elements -->
-                    </form>
+                    <h2>About Us</h2>
+                    <p>Content about your organization goes here.</p>
                 </div>
             </section>
 

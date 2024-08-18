@@ -1,7 +1,6 @@
 <div class="banner">
     <div>
-        <img src="{{ asset('images/pikaso_texttoimage_35mm-film-photography-A-black-panther-resting-in-a.jpeg') }}"
-            alt="Banner Image" class="banner-image">
+        <img src="{{ asset('images/hero-image-1.png') }}" alt="Banner Image" class="banner-image">
     </div>
     <div class="banner-content d-flex flex-column justify-content-center">
         <div class="container">

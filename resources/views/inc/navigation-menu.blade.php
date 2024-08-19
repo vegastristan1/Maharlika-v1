@@ -1,8 +1,8 @@
 <nav class="navbar navbar-expand-lg c-nav-bar">
     <div class="container">
         <a class="navbar-brand" href="#">
-            <img class="c-brand-logo" src="{{ asset('images/cbi-inc.png') }}"
-                alt="Commando Brotherhood International Inc. Logo">
+            <img class="c-brand-logo" src="{{ asset('images/maharlika.png') }}"
+                alt="Samahan ng mga Maharlikang nagkakaisa sa pag-unlad Inc.">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
             aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
@@ -12,7 +12,7 @@
             <div class="offcanvas-header">
                 <a class="navbar-brand" href="#">
                     <img class="c-brand-logo" src="{{ asset('images/cbi-inc.png') }}"
-                        alt="Commando Brotherhood International Inc. Logo">
+                        alt="Samahan ng mga Maharlikang nagkakaisa sa pag-unlad Inc.">
                 </a>
                 <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>

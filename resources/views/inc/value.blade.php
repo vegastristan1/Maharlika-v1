@@ -1,7 +1,7 @@
 <div class="mb-3 about-us-core">
     <div class="container row about-us-core-bg">
         <div class="col-2"></div>
-        <div class="col about-us-core-bg-mission">
+        <div class="col about-us-core-bg-value">
 
         </div>
     </div>
@@ -11,7 +11,7 @@
         </div>
         <div class="col-md-7 d-flex align-items-center">
             <div class="card-body ps-5 pe-5">
-                <h3 class="about-us-core-title pb-4">Our Mission</h3>
+                <h3 class="about-us-core-title pb-4">Our Value</h3>
                 <p class="about-us-core-text">To foster a thriving and inclusive community by providing essential
                     support and
                     resources to individuals and families in needs. We are dedicated to promoting well-being,

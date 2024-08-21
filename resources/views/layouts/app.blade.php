@@ -26,38 +26,32 @@
         </section>
 
         <main class="">
-            <!-- Section for Services -->
-            <section id="mission-vision" class="mission-vision-section bg-mission-vision">
-                <div class="container">
-                    <div class="section-content-title">
-                        <div class="addition-break">
-                        </div>
-                        <h2 class="">Our Mission & Vision</h2>
-                        <p class="pb-3 text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque ipsa
-                            inventore
-                            alias vel? Officia, necessitatibus asperiores repellat voluptatibus error vel quaerat nobis
-                            nisi ipsum! Rerum minima id cupiditate tempore facilis.</p>
-                    </div>
-
-                    @include('inc.mission')
-                    @include('inc.vision')
-                </div>
-
-                <div class="addition-break">
-                </div>
-            </section>
-
             <!-- Section for About -->
             <section id="about" class="about-section bg-about-us">
                 <div class="container">
                     <div class="section-content-title">
-                        <div class="addition-break">
+                        <div class="addition-break-15vh">
                         </div>
-                        <h2>About Us</h2>
-                        <p class="pb-3 text-center">Content about your organization goes here.</p>
+                        <h2 class="section-title">About Us</h2>
+                        <p class="section-description pb-3 text-center">Lorem ipsum dolor sit amet consectetur,
+                            adipisicing elit. Architecto
+                            blanditiis officiis laudantium consectetur <br> perspiciatis non unde, numquam neque tenetur
+                            corporis tempore asperiores ab, commodi voluptatibus nesciunt quia enim suscipit maiores.
+                        </p>
+                        <div class="addition-break-5vh">
+                        </div>
                     </div>
+
+                    @include('inc.mission')
+                    @include('inc.vision')
+                    @include('inc.value')
                 </div>
+
+                <div class="addition-break">
+                </div>
+
             </section>
+
 
             <!-- Section for Footer -->
             <footer id="footer" class="footer-section">

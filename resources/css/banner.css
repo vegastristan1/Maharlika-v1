@@ -57,6 +57,10 @@ header {
     font-size: medium;
 }
 
+.banner-text, .banner-description {
+    font-family: sans-serif;
+}
+
 /* For larger screens */
 @media (min-width: 1200px) {
     .banner {

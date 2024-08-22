@@ -12,12 +12,27 @@
         <div class="col-md-7 d-flex align-items-center">
             <div class="card-body ps-5 pe-5">
                 <h3 class="about-us-core-title pb-4">Our Value</h3>
-                <p class="about-us-core-text">To foster a thriving and inclusive community by providing essential
-                    support and
-                    resources to individuals and families in needs. We are dedicated to promoting well-being,
-                    self-sufficiency and social cohesion through compassionate assistance, educational programs, and
-                    collaborative initiatives. Our commitment is to empower every community member to achieve their
-                    fullest potential and contribute to a culture of mutual support and resilience.</p>
+                <p class="about-us-core-text">
+                <ul>
+                    <li class="about-us-core-text">
+                        Unity:
+                        <p>We believe in the power of coming together to achieve common
+                            goals.</p>
+                    </li>
+                    <li class="about-us-core-text">
+                        Support:
+                        <p>We are committed to helping each other, recognizing that our
+                            strength lies in our collective
+                            efforts.</p>
+                    </li>
+                    <li class="about-us-core-text">
+                        Progress:
+                        <p>We strive for continuous improvement and development, both
+                            individually and as a community.
+                        </p>
+                    </li>
+                </ul>
+                </p>
             </div>
         </div>
     </div>

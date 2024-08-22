@@ -25,13 +25,17 @@
                     <li class="list-group-item d-flex justify-content-between align-items-start">
                         <div class="contact-icon"><i class="fa-solid fa-phone"></i></div>
                         <div class="ms-2 me-auto align-self-center">
-                            +63-916-905-5879
+                            <a href="tel:+63-916-905-5879"
+                                class="text-color-white text-decoration-none">+63-916-905-5879</a>
                         </div>
                     </li>
                     <li class="list-group-item d-flex justify-content-between align-items-start">
                         <div class="contact-icon"><i class="fa-solid fa-location-dot"></i></div>
                         <div class="ms-2 me-auto align-self-center">
-                            Location Here
+                            <a href="https://maps.app.goo.gl/QHxYuDVZ7MTzyjBVA"
+                                class="text-color-white text-decoration-none" target="_blank">Location
+                                Here</a>
+
                         </div>
                     </li>
                 </div>

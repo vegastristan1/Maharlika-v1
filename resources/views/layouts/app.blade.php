@@ -46,18 +46,13 @@
                     @include('inc.vision')
                     @include('inc.value')
                 </div>
-
-                <div class="addition-break">
-                </div>
-
             </section>
 
-
+            <div class="addition-break-15vh">
+            </div>
             <!-- Section for Footer -->
             <footer id="footer" class="footer-section">
-                <div class="container">
-                    <p>&copy; 2024 Your Company. All rights reserved.</p>
-                </div>
+                @include('inc.footer')
             </footer>
         </main>
     </div>

@@ -17,7 +17,7 @@
 .section-title {
     font-size: 40px;
     font-family: sans-serif;
-    font-weight: bold;
+    font-weight: bolder;
 }
 
 .about-us-core-text {
@@ -41,7 +41,7 @@
 }
 
 .about-us-core {
-    height: 43vh;
+    height: 60%;
     display: flex;
     align-items: center;
 }
@@ -60,7 +60,7 @@
 }
 
 .about-us-core-reverse {
-    height: 43vh;
+    height: 60%;
     display: flex;
     align-items: center;
     flex-direction: row-reverse;

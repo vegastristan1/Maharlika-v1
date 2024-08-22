@@ -33,11 +33,11 @@
                         <div class="addition-break-15vh">
                         </div>
                         <h2 class="section-title">About Us</h2>
-                        <p class="section-description pb-3 text-center">Lorem ipsum dolor sit amet consectetur,
+                        {{-- <p class="section-description pb-3 text-center">Lorem ipsum dolor sit amet consectetur,
                             adipisicing elit. Architecto
                             blanditiis officiis laudantium consectetur <br> perspiciatis non unde, numquam neque tenetur
                             corporis tempore asperiores ab, commodi voluptatibus nesciunt quia enim suscipit maiores.
-                        </p>
+                        </p> --}}
                         <div class="addition-break-5vh">
                         </div>
                     </div>

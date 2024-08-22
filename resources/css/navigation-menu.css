@@ -12,8 +12,12 @@
 }
 
 .btn-c-nav-menu {
-    background-color: red;
+    background-color: #E0BE52;
     color: white;
+}
+
+.btn-c-nav-menu:hover {
+    border: #E0BE52 solid 1px;
 }
 
 .c-nav-bar {
@@ -25,4 +29,8 @@
     z-index: 100; /* Higher value to keep it on top of other elements */
     background-color: #1b1111; /* Adjust the background color as needed */
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: adds a slight shadow for better visibility */
+}
+
+.c-nav-menu-item:hover {
+    color: #E0BE52;
 }

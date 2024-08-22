@@ -25,10 +25,11 @@
     top: 0;
     left: 0;
     right: 0;
-    width: 100%;
+    max-width: 100%;
+    /* width: 100%; */
     z-index: 100; /* Higher value to keep it on top of other elements */
     background-color: #1b1111; /* Adjust the background color as needed */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: adds a slight shadow for better visibility */
+    /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); Optional: adds a slight shadow for better visibility */
 }
 
 .c-nav-menu-item:hover {

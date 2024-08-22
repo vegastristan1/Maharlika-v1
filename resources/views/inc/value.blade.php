@@ -7,13 +7,13 @@
     </div>
     <div class="row g-0 ps-4 about-us-core-description">
         <div class="col-md-5">
-            <img src="{{ asset('images/mission-image.jpg') }}" class="img-fluid rounded-start p-5" alt="...">
+            <img src="{{ asset('images/mission-image.jpg') }}" class="img-fluid rounded-start p-5 hidden-1" alt="...">
         </div>
         <div class="col-md-7 d-flex align-items-center">
             <div class="card-body ps-5 pe-5">
-                <h3 class="about-us-core-title pb-4">Our Value</h3>
+                <h3 class="about-us-core-title pb-4 hidden-2">Our Value</h3>
                 <p class="about-us-core-text">
-                <ul>
+                <ul class="hidden-2">
                     <li class="about-us-core-text">
                         Unity:
                         <p>We believe in the power of coming together to achieve common

@@ -14,6 +14,13 @@
     <link rel="dns-prefetch" href="//fonts.bunny.net">
     <link href="https://fonts.bunny.net/css?family=Nunito" rel="stylesheet">
 
+    <script>
+        window.addEventListener('load', () => {
+            window.scrollTo(0, 0); // Ensure the page starts at the top
+        });
+    </script>
+
+
     <!-- Scripts -->
     @vite(['resources/js/app.js'])
 </head>

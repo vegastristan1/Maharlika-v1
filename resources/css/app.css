@@ -1,3 +1,21 @@
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.text-container {
+    /* width: 100%; Ensure it doesn't exceed the viewport width */
+    /* max-width: 100%; */
+    overflow-x: hidden;
+    position: relative;
+}
+
+
+
 .bg-about-us {
     /* background-color: aqua;
     height: 100vh; */
@@ -22,6 +40,7 @@
 
 .about-us-core-text {
     font-size: 18px;
+    width: 90%;
 }
 
 .addition-break-5vh {
@@ -50,7 +69,7 @@
     position: absolute;
     height: inherit;
     z-index: -1;
-    width: -webkit-fill-available;
+    /* width: -webkit-fill-available; */
 }
 
 .about-us-core-title {
@@ -64,6 +83,12 @@
     display: flex;
     align-items: center;
     flex-direction: row-reverse;
+}
+
+.about-us-core,
+.about-us-core-reverse {
+    flex: 1 1 auto; /* Allow the element to shrink if needed */
+    max-width: 100%; /* Prevent it from expanding beyond the viewport */
 }
 
 .about-us-core-bg-reverse {

@@ -1,0 +1,41 @@
+@keyframes left_to_right {
+    from {
+      transform: translateX(-300px);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+
+  @keyframes right_to_left {
+    from {
+      transform: translateX(300px);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+
+  .animation-left-to-right {
+    /* width: 100%; Ensure it takes up the full width of its container */
+    opacity: 1;
+    position: relative;
+    animation: left_to_right 1s ease;
+}
+
+.animation-right-to-left {
+  opacity: 1;
+    position: relative;
+    animation: right_to_left 1s ease;
+}
+
+/* Animation class */
+/* .animate {
+  animation: fadeIn 1s ease-out forwards;
+} */
+
+/* Initial hidden state */
+.hidden-1, .hidden-2 {
+  opacity: 0;
+  transform: translateY(20px); /* Match the starting point of the animation */
+}

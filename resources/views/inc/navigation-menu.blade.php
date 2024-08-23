@@ -21,7 +21,7 @@
                     <li class="nav-item d-flex justify-content-center">
                         <a class="nav-link c-nav-menu-item" aria-current="page" href="#about">About Us</a>
                     </li>
-                    <div class="btn btn-c-nav-menu c-nav-menu-item">Login</div>
+                    {{-- <div class="btn btn-c-nav-menu c-nav-menu-item">Login</div> --}}
                 </ul>
             </div>
         </div>

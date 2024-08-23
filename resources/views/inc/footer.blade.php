@@ -2,9 +2,9 @@
     <div class="footer-context container">
         <div class="row footer-context-details">
             <div class="col">
-                <div class="row d-flex align-items-center">
-                    <div class="col-4">
-                        <img src="{{ asset('images/maharlika.png') }}" alt="Image" class="footer-image">
+                <div class="footer-left-context row d-flex align-items-center">
+                    <div class="col-lg-5 col-xl-4">
+                        <img src="{{ asset('images/maharlika.png') }}" alt="Image" class="footer-image m-2">
                     </div>
                     <div class="col">
                         SAMAHAN NG MGA MAHARLIKANG NAGKAKAISA SA PAG-UNLAD INC.

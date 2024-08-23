@@ -5,7 +5,7 @@
 }
 
 .about-us-core {
-    height: 70%;
+    height: 750px;
     display: flex;
     align-items: center;
 }
@@ -24,7 +24,7 @@
 }
 
 .about-us-core-reverse {
-    height: 70%;
+    height: 750px;
     display: flex;
     align-items: center;
     flex-direction: row-reverse;

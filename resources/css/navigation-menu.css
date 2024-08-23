@@ -35,3 +35,9 @@
 .c-nav-menu-item:hover {
     color: #E0BE52;
 }
+
+.navbar-toggler {
+    color: white;
+    padding: 10px;
+    /* background-color: red; */
+}

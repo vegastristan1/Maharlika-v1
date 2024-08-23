@@ -14,18 +14,6 @@ body {
     position: relative;
 }
 
-
-
-.bg-about-us {
-    /* background-color: aqua;
-    height: 100vh; */
-}
-
-.bg-mission-vision {
-    /* background-color: blueviolet; */
-    /* height: 100vh; */
-}
-
 .section-content-title {
     display: flex;
     flex-direction: column;
@@ -36,11 +24,6 @@ body {
     font-size: 40px;
     font-family: sans-serif;
     font-weight: bolder;
-}
-
-.about-us-core-text {
-    font-size: 18px;
-    width: 90%;
 }
 
 .addition-break-5vh {
@@ -57,65 +40,4 @@ body {
 
 .addition-break-20vh {
     height: 20vh;
-}
-
-.about-us-core {
-    height: 70%;
-    display: flex;
-    align-items: center;
-}
-
-.about-us-core-bg {
-    position: absolute;
-    height: inherit;
-    z-index: -1;
-    /* width: -webkit-fill-available; */
-}
-
-.about-us-core-title {
-    font-size: 40px;
-    font-weight: bold;
-    font-family: sans-serif;
-}
-
-.about-us-core-reverse {
-    height: 70%;
-    display: flex;
-    align-items: center;
-    flex-direction: row-reverse;
-}
-
-.about-us-core,
-.about-us-core-reverse {
-    flex: 1 1 auto; /* Allow the element to shrink if needed */
-    max-width: 100%; /* Prevent it from expanding beyond the viewport */
-}
-
-.about-us-core-bg-reverse {
-    position: absolute;
-    height: inherit;
-    z-index: -1;
-    width: -webkit-fill-available;
-    flex-direction: row-reverse;
-}
-
-.about-us-core-description-reverse {
-    flex-direction: row-reverse;
-}
-
-
-.about-us-core-bg-mission {
-    background: #E0BE52;
-}
-
-.about-us-core-bg-vision {
-    background: #544631;
-}
-
-.about-us-core-bg-value {
-    background: #E0BE53;
-}
-
-.text-color-white {
-    color: white;
 }

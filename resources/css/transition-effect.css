@@ -16,6 +16,12 @@
     }
   }
 
+.animation-hero-left-to-right {
+  opacity: 1;
+  position: relative;
+  animation: left_to_right 1s ease;
+}
+
 .animation-left-to-right {
     /* width: 100%; Ensure it takes up the full width of its container */
     opacity: 1;

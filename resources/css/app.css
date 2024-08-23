@@ -60,7 +60,7 @@ body {
 }
 
 .about-us-core {
-    height: 60%;
+    height: 70%;
     display: flex;
     align-items: center;
 }
@@ -79,7 +79,7 @@ body {
 }
 
 .about-us-core-reverse {
-    height: 60%;
+    height: 70%;
     display: flex;
     align-items: center;
     flex-direction: row-reverse;

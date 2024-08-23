@@ -4,7 +4,7 @@
     </div>
     <div class="banner-content d-flex flex-column justify-content-center">
         <div class="container text-container">
-            <div class="banner-content-text animation-left-to-right ">
+            <div class="banner-content-text animation-hero-left-to-right ">
                 <h1 class="banner-text">SAMAHAN NG MGA MAHARLIKANG NAGKAKAISA SA PAG-UNLAD INC.
                 </h1>
                 <p class="banner-description"> is a non-profit and dynamic organization

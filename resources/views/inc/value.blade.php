@@ -7,8 +7,8 @@
     </div>
     <div class="row g-0 ps-4 pe-sm-4 about-us-core-description">
         <div class="col-md-5">
-            <img src="{{ asset('images/mission-image.jpg') }}" class="about-us-img img-fluid rounded-start p-5 hidden-1"
-                alt="...">
+            <img src="{{ asset('images/new/Gemini_Generated_Image_41cw4x41cw4x41cw.jfif') }}"
+                class="about-us-img img-fluid rounded-start p-5 hidden-1" alt="...">
         </div>
         <div class="col-md-7 d-flex align-items-center">
             <div class="card-body about-us-core-context ps-sm-3 ps-lg-4 pe-sm-3 pe-lg-4">

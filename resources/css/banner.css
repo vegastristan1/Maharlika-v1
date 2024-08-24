@@ -64,20 +64,20 @@ header {
 /* For larger screens */
 @media (min-width: 1200px) {
     .banner {
-        height: 100vh; /* Full viewport height */
+        /* height: 100vh; Full viewport height */
     }
 }
 
 /* For medium screens */
 @media (min-width: 768px) and (max-width: 1199px) {
     .banner {
-        height: 70vh;
+        /* height: 70vh; */
     }
 }
 
 /* For small screens */
 @media (max-width: 767px) {
     .banner {
-        height: 50vh;
+        /* height: 50vh; */
     }
 }

@@ -2,9 +2,9 @@
     <div class="footer-context container">
         <div class="row footer-context-details">
             <div class="col">
-                <div class="row d-flex align-items-center">
-                    <div class="col-4">
-                        <img src="{{ asset('images/maharlika.png') }}" alt="Image" class="footer-image">
+                <div class="footer-left-context row d-flex align-items-center">
+                    <div class="col-lg-5 col-xl-4">
+                        <img src="{{ asset('images/maharlika.png') }}" alt="Image" class="footer-image m-2">
                     </div>
                     <div class="col">
                         SAMAHAN NG MGA MAHARLIKANG NAGKAKAISA SA PAG-UNLAD INC.
@@ -29,7 +29,7 @@
                                 class="text-color-white text-decoration-none">+63-916-905-5879</a>
                         </div>
                     </li>
-                    <li class="list-group-item d-flex justify-content-between align-items-start">
+                    {{-- <li class="list-group-item d-flex justify-content-between align-items-start">
                         <div class="contact-icon"><i class="fa-solid fa-location-dot"></i></div>
                         <div class="ms-2 me-auto align-self-center">
                             <a href="https://maps.app.goo.gl/QHxYuDVZ7MTzyjBVA"
@@ -37,7 +37,7 @@
                                 Here</a>
 
                         </div>
-                    </li>
+                    </li> --}}
                 </div>
 
             </div>

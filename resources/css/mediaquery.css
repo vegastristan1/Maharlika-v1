@@ -1,0 +1,165 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  /* Your styles here */
+
+  .banner-content-text {
+    text-align: center;
+    width: unset;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .col-sm-0 {
+    width: unset;
+        flex: 0 0 0;
+        padding: unset;
+  }
+
+  /* Your styles here */
+  .banner {
+    height: 100vh;
+}
+
+.banner-content h1 {
+  font-size: 35px;
+}
+
+.banner-content-text {
+  text-align: center;
+  width: unset;
+}
+
+.about-us-core, .about-us-core-reverse {
+    text-align: center;
+    margin-top: 70px;
+}
+
+.about-us-img {
+  width: 380px;
+}
+
+.about-us-core-bg-mission, .about-us-core-bg-vision, .about-us-core-bg-value {
+  height: 750px;
+}
+
+.about-us-core-text {
+  width: unset;
+}
+
+.about-us-core-bullet {
+  list-style: none;
+}
+
+.footer-left-context {
+  text-align: center;
+}
+
+.footer-area {
+  height: 380px;
+}
+
+.about-us-core-description, .about-us-core-description-reverse {
+  /* height: 990px;; */
+}
+
+.about-us-core-context{
+  height: 530px;
+}
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* Your styles here */
+  .banner {
+    height: 100vh;
+}
+
+.banner-content-text {
+  text-align: center;
+  width: unset;
+}
+
+.banner-content h1 {
+  font-size: 40px;
+}
+
+.about-us-core, .about-us-core-reverse {
+  height: 550px;
+  padding-bottom: 50px;
+}
+
+.footer-left-context {
+  text-align: center;
+}
+
+.footer-area {
+  height: 380px;
+}
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  /* Your styles here */
+  .banner {
+    height: 100vh;
+}
+
+.banner-content-text {
+  width: 60%;
+  text-align: left;
+}
+
+.banner-content h1 {
+  font-size: 35px;
+}
+
+.about-us-core, .about-us-core-reverse {
+  height: 400px;
+  padding: 50px 0;
+}
+
+.about-us-core-text {
+  width: unset;
+}
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  /* Your styles here */
+  .banner {
+    height: 100vh;
+}
+
+.banner-content h1 {
+  font-size: 45px;
+}
+
+.banner-content-text {
+  width: 60%;
+  text-align: left;
+}
+
+.about-us-core, .about-us-core-reverse {
+  height: 450px;
+  padding-bottom: unset;
+}
+}
+
+/* Extra extra large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+  /* Your styles here */
+  .banner {
+    height: 100vh;
+}
+
+.banner-content-text {
+  width: 60%;
+  text-align: left;
+}
+
+.about-us-core, .about-us-core-reverse {
+  height: 500px;
+  padding-bottom: unset;
+}
+}

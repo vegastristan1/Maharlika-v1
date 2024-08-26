@@ -6,13 +6,17 @@
     },
     "routes": [
         {
+            "src": "/(.*\\.(?:css|js|png|jpg|jpeg|gif|ico|svg|webp|woff|woff2|ttf|otf|eot|json|mp4|webm|ogg|mp3|wav|pdf))$",
+            "dest": "/public/$1"
+        },
+        {
             "src": "/(.*)",
             "dest": "/api/index.php"
         }
     ],
     "env": {
         "APP_ENV": "production",
-        "APP_DEBUG": "true",
+        "APP_DEBUG": "false",
         "APP_URL": "https://maharlika-v1.vercel.app",
         "APP_KEY": "base64:D1540pXprDYif14Qrf1LFMjqbgkNieMM5OXYQ9+fZHg=",
 
@@ -26,5 +30,8 @@
         "CACHE_DRIVER": "array",
         "LOG_CHANNEL": "stderr",
         "SESSION_DRIVER": "cookie"
+    },
+    "build": {
+        "command": "npm run build && php artisan view:cache"
     }
 }

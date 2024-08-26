@@ -4,6 +4,9 @@
     "functions": {
         "api/index.php": { "runtime": "vercel-php@0.6.0" }
     },
+    "rewrites": [
+        { "source": "/(.*)", "destination": "/public/$1" }
+    ],
     "routes": [
         {
             "src": "/(.*\\.(?:css|js|png|jpg|jpeg|gif|ico|svg|webp|woff|woff2|ttf|otf|eot|json|mp4|webm|ogg|mp3|wav|pdf))$",

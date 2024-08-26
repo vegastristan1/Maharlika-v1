@@ -30,8 +30,5 @@
         "CACHE_DRIVER": "array",
         "LOG_CHANNEL": "stderr",
         "SESSION_DRIVER": "cookie"
-    },
-    "build": {
-        "command": "npm run build && php artisan view:cache"
     }
 }

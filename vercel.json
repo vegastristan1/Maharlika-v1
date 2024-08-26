@@ -7,12 +7,24 @@
     "rewrites": [
         { "source": "/(.*)", "destination": "/public/$1" }
     ],
-    "routes": [
-        {
-            "src": "/(.*)",
-            "dest": "/api/index.php"
-        }
-    ],
+      "routes": [
+    {
+      "src": "/build/(.*)",
+      "dest": "/public/build/"
+    },
+    {
+      "src": "/resources/(.*)",
+      "dest": "/public/resources/"
+    },
+    {
+      "src": "/favicon/(.*)",
+      "dest": "/public/favicon/"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/api/index.php"
+    }
+  ],
     "env": {
         "APP_ENV": "production",
         "APP_DEBUG": "false",

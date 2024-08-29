@@ -17,7 +17,8 @@
 }
 
 .btn-c-nav-menu:hover {
-    border: #E0BE52 solid 1px;
+    border: #E0BE52 solid 1px !important;
+    background-color: rgba(0, 0, 0, .125) !important;
 }
 
 .c-nav-bar {
@@ -33,7 +34,7 @@
 }
 
 .c-nav-menu-item:hover {
-    color: #E0BE52;
+    color: #E0BE52 !important;
 }
 
 .navbar-toggler {

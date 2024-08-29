@@ -4,16 +4,16 @@
 }
 
 .c-nav-menu-item {
-    font-size: 20px;
-    padding: 8px 15px 5px 15px;
+    font-size: 20px !important;
+    padding: 8px 15px 5px 15px !important;
     border-radius: 10px;
     margin: 0 0 0 20px;
-    color: white;
+    color: white !important;
 }
 
 .btn-c-nav-menu {
-    background-color: #E0BE52;
-    color: white;
+    background-color: #E0BE52 !important;
+    color: white !important;
 }
 
 .btn-c-nav-menu:hover {
@@ -21,7 +21,7 @@
 }
 
 .c-nav-bar {
-    position: fixed;
+    position: fixed !important;
     top: 0;
     left: 0;
     right: 0;

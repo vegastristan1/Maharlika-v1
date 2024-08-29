@@ -12,11 +12,16 @@
         {
             "src": "/(.*)",
             "dest": "/api/index.php"
+        },
+        {
+            "src": "/robots.txt",
+            "dest": "public/$1"
         }
     ],
     "env": {
+        "APP_NAME": "Maharlika",
         "APP_ENV": "production",
-        "APP_DEBUG": "true",
+        "APP_DEBUG": "false",
         "APP_URL": "https://maharlika-v1.vercel.app",
         "APP_KEY": "base64:D1540pXprDYif14Qrf1LFMjqbgkNieMM5OXYQ9+fZHg=",
 

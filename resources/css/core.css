@@ -10,11 +10,11 @@
     align-items: center;
 }
 
-.about-us-core-bg {
+.about-us-core-bg, .about-us-core-bg-reverse {
     position: absolute;
     height: inherit;
     z-index: -1;
-    /* width: -webkit-fill-available; */
+    width: 100%;
 }
 
 .about-us-core-title {
@@ -37,10 +37,6 @@
 }
 
 .about-us-core-bg-reverse {
-    position: absolute;
-    height: inherit;
-    z-index: -1;
-    width: -webkit-fill-available;
     flex-direction: row-reverse;
 }
 

@@ -1,11 +1,11 @@
-<div class="mb-3 about-us-core-reverse">
+<div class="mb-4 about-us-core-reverse">
     <div class="container row about-us-core-bg-reverse">
-        <div class="col-sm-0 col-md-2"></div>
+        <div class="col-sm-0 col-md-2 about-us-core-top"></div>
         <div class="col about-us-core-bg-vision">
 
         </div>
     </div>
-    <div class="row g-0 ps-4 pe-sm-4 about-us-core-description-reverse">
+    <div class="row g-0 ps-sm-4 pe-sm-4 about-us-core-description-reverse">
         <div class="col-md-5">
             <img src="{{ asset('images/new/Gemini_Generated_Image_1wf8oe1wf8oe1wf8.jfif') }}"
                 class="about-us-img img-fluid rounded-start p-5 hidden-2" alt="...">

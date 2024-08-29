@@ -1,15 +1,18 @@
+// Import JavaScript dependencies
 import "./bootstrap";
 import "./fontawesome";
 
+// Import Sass (SCSS) files
 import "../sass/app.scss";
 
+// Import Custom CSS Files (reordered to ensure they are loaded last)
 import "../css/app.css";
-import "../css/navigation-menu.css";
+import "../css/navigation-menu.css"; // Base styles that should be loaded first
 import "../css/banner.css";
-import "../css/core.css";
+import "../css/core.css"; 
 import "../css/footer.css";
 import "../css/transition-effect.css";
-import "../css/mediaquery.css";
+import "../css/mediaquery.css"; // Media queries should be last to override all previous styles
 
 function checkElementsInView() {
     const viewportHeight = window.innerHeight;

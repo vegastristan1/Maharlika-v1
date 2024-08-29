@@ -2,7 +2,7 @@
     <div class="footer-context container">
         <div class="row footer-context-details">
             <div class="col">
-                <div class="footer-left-context row d-flex align-items-center">
+                <div class="footer-left-context row align-items-center">
                     <div class="col-lg-5 col-xl-4">
                         <img src="{{ asset('images/maharlika.png') }}" alt="Image" class="footer-image m-2">
                     </div>

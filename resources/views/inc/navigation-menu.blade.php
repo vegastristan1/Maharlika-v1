@@ -4,7 +4,7 @@
             <img class="c-brand-logo" src="{{ asset('images/maharlika.png') }}"
                 alt="Samahan ng mga Maharlikang nagkakaisa sa pag-unlad Inc.">
         </a>
-        <ul class="navbar-nav justify-content-end align-items-end flex-grow-1 pe-3">
+        <ul class="navbar-nav justify-content-end align-items-end flex-row flex-grow-1 pe-3">
             <li class="nav-item d-flex justify-content-center">
                 <a class="nav-link c-nav-menu-item" aria-current="page" href="#about">About Us</a>
             </li>

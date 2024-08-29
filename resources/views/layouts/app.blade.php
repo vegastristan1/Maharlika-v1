@@ -13,14 +13,17 @@
     <!-- Primary Meta Tags -->
     <meta name="title" content="Maharlika" />
     <meta name="description"
-        content="is a non-profit and dynamic organization dedicated to fostering community development and empowering its members. Our mission is to create a supportive and collaborative environment where members assist each other, driving collective progress towards our shared goals." />
+        content="A non-profit organization dedicated to community development and empowering members through a supportive, collaborative environment to achieve shared goals." />
+    <meta property="description"
+        content="A non-profit organization dedicated to community development and empowering members through a supportive, collaborative environment to achieve shared goals." />
 
     <!-- Open Graph / Facebook -->
+    <meta property="og:site_name" content="https://maharlika-v1.vercel.app/">
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://maharlika-v1.vercel.app/" />
     <meta property="og:title" content="Maharlika" />
     <meta property="og:description"
-        content="is a non-profit and dynamic organization dedicated to fostering community development and empowering its members. Our mission is to create a supportive and collaborative environment where members assist each other, driving collective progress towards our shared goals." />
+        content="A non-profit organization dedicated to community development and empowering members through a supportive, collaborative environment to achieve shared goals." />
     <meta property="og:image" content="{{ asset('images/hero-image-1.png') }}" />
 
     <!-- Twitter -->
@@ -28,14 +31,14 @@
     <meta property="twitter:url" content="https://maharlika-v1.vercel.app/" />
     <meta property="twitter:title" content="Maharlika" />
     <meta property="twitter:description"
-        content="is a non-profit and dynamic organization dedicated to fostering community development and empowering its members. Our mission is to create a supportive and collaborative environment where members assist each other, driving collective progress towards our shared goals." />
+        content="A non-profit organization dedicated to community development and empowering members through a supportive, collaborative environment to achieve shared goals." />
     <meta property="twitter:image" content="{{ asset('images/hero-image-1.png') }}" />
 
-    <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('/apple-touch-icon.png') }}">
-    <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('/favicon-32x32.png') }}">
-    <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('/favicon-16x16.png') }}">
-    <link rel="manifest" href="{{ asset('/site.webmanifest') }}">
-    <link rel="mask-icon" href="{{ asset('/safari-pinned-tab.svg') }}" color="#5bbad5">
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('favicon/apple-touch-icon.png') }}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('favicon/favicon-32x32.png') }}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('favicon/favicon-16x16.png') }}">
+    <link rel="manifest" href="{{ asset('favicon/site.webmanifest') }}">
+    <link rel="mask-icon" href="{{ asset('favicon/safari-pinned-tab.svg') }}" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
 
